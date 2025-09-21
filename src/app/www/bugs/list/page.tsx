@@ -4,7 +4,7 @@ import ProtectedRoute from "@/app/utils/ProtectedRoute";
 const BugListPage = () => {
   return (
     <ProtectedRoute>
-      <BugListTemplate />;
+      <BugListTemplate />
     </ProtectedRoute>
   );
 };

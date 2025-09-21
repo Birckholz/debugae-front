@@ -4,7 +4,7 @@ import ProtectedRoute from "@/app/utils/ProtectedRoute";
 const ProjectListPage = () => {
   return (
     <ProtectedRoute>
-      <ProjectListTemplate />;
+      <ProjectListTemplate />
     </ProtectedRoute>
   );
 };
